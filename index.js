@@ -1,5 +1,4 @@
 const customers = document.getElementById("customers");
-let db; 
 const cartButton = document.querySelector('.cartButton')
 
 axios.get('https://dummyjson.com/products')
