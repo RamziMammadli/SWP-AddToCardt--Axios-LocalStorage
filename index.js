@@ -1,6 +1,5 @@
 const customers = document.getElementById("customers");
 let db; 
-let cartCount
 const cartButton = document.querySelector('.cartButton')
 
 axios.get('https://dummyjson.com/products')
